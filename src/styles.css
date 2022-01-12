@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rearticles{
+    @apply mb-5 lg:mb-10;
+}
+.rearticles h1{
+    @apply text-center mt-10 mb-5 text-4xl font-semibold;
+}
+.rearticles img{
+    @apply float-left rounded-md ml-1 lg:mr-5 lg:ml-20 my-5;
+}
+.rearticles section{
+    @apply my-5 ml-1 lg:ml-0 mx-0 lg:mx-20 block;
+}
+.rearticles h2{
+    @apply text-2xl text-left font-bold;
+}
+.rearticles h3{
+    @apply text-yellow-600 font-bold mx-0 text-sm mt-5;
+}
+.rearticles p{
+    @apply mt-5 mb-5 lg:mb-12 text-left;
+}
+.rearticles a span{
+    @apply block text-xs font-semibold text-gray-600;
+}
